@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bootstrap website</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c21634bf85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/Nety Food.png" alt="Neties Food" id="logo" class="rounded-circle">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<header class="main-header">
+    <div class="background-overlay text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center justify-content-center align-self-center">
+                    <h1>This is a phrase related to the product</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, distinctio!</p>
+                    <a href="#" class="btn btn-outline-secondary btn-lg text-white mb-3">
+                        Read More
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img id="pastelito" src="img/pastelito.png" alt="Product 1" class="img-fluid d-none d-sm-block rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <input type="text" class="form-control form-control-lg" placeholder="Enter your Name">
+            </div>
+            <div class="col-md-4">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your Email">
+            </div>
+            <div class="col-md-4">
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary btn-lg">Suscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card text-center border-primary">
+                    <div class="card-body">
+                        <h3>Feature One</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, non!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center bg-primary text-white">
+                    <div class="card-body">
+                        <h3>Feature Two</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, non!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center border-primary">
+                    <div class="card-body">
+                        <h3>Feature Three</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, non!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center bg-primary text-white">
+                    <div class="card-body">
+                        <h3>Feature Four</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, non!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="f1" class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="m-5">
+                <h3>Why this product?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus libero dolor autem explicabo deleniti rerum similique. Officia earum accusamus culpa illum sapiente doloremque! Placeat, nemo.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container p-5" style="text-align: justify;">
+    <h2 class="text-center p-5">FAQ</h2>
+    <div class="row">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Pregunta #1
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Pregunta #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Pregunta #3
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Pregunta #4
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+<section class="team text-center">
+    <div class="container p-5">
+        <div class="text-white">
+            <h1>Team</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, magnam.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/person.png" alt="" class="img-fluid rounded-circle w-50">
+                        <h3>Jhon Carter</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore rem sint ex ab debitis.</p>
+                        <div class="d-flex flex-row justify-content-lg-center">
+                            <div class="p-4">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa-brands fa-square-facebook" id="face"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.twitter.com/" target="_blank">
+                                    <i class="fa-brands fa-twitter" id="twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa-brands fa-instagram" id="inst"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/person.png" alt="" class="img-fluid rounded-circle w-50">
+                        <h3>Jhon Carter</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore rem sint ex ab debitis.</p>
+                        <div class="d-flex flex-row justify-content-lg-center">
+                            <div class="p-4">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa-brands fa-square-facebook" id="face"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.twitter.com/" target="_blank">
+                                    <i class="fa-brands fa-twitter" id="twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa-brands fa-instagram" id="inst"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/person.png" alt="" class="img-fluid rounded-circle w-50">
+                        <h3>Jhon Carter</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore rem sint ex ab debitis.</p>
+                        <div class="d-flex flex-row justify-content-lg-center">
+                            <div class="p-4">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa-brands fa-square-facebook" id="face"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.twitter.com/" target="_blank">
+                                    <i class="fa-brands fa-twitter" id="twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa-brands fa-instagram" id="inst"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/person.png" alt="" class="img-fluid rounded-circle w-50">
+                        <h3>Jhon Carter</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto labore rem sint ex ab debitis.</p>
+                        <div class="d-flex flex-row justify-content-lg-center">
+                            <div class="p-4">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa-brands fa-square-facebook" id="face"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.twitter.com/" target="_blank">
+                                    <i class="fa-brands fa-twitter" id="twitter"></i>
+                                </a>
+                            </div>
+                            <div class="p-4">
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa-brands fa-instagram" id="inst"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <h3>Contact</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <form action="">
+                    <div class="input-group mb-3">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-shuttle-space"></i>
+                        </div>
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-text">
+                            <i class="fa-solid fa-sitemap"></i>
+                        </div>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Write your message, human." class="form-control"></textarea>
+                    </div>
+                    <div class="d-grid mb-4">
+                        <div class="btn btn-outline-secondary btn-lg btn-block">Send Your Message</div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3 align-self-center">
+                <img src="img/Nety Food.png" alt="" style="width: 99%;" class="mx-4">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container p-3 text-white">
+        <p>Copyright &copy; 2022</p>
+    </div>
+</footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
